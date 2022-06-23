@@ -1,0 +1,41 @@
+a[] = 90, 72, 65, 100, 63, 72
+n = 6
+
+
+i adalah variabel pertama, j adalah variabel terakhir.
+pivot adalah data P, Data pertama.
+
+mengidentifikasi data i kurang dari pivot. selama i kurang dari pivot, maka i bergerak maju.
+apakah data j lbih besar dari pivot, J bergerak ke Kiri.
+
+menentukan pivot. yakni 90 
+menentukan i. yakni 72
+karena i lebih kecil dari pivot, maka posisi tetap
+menentukan j. yakni 72
+karena j adalah 72 lebih kecil dari pivot, maka posisi tetap.
+i dan j ditukar
+
+90, 72, 65, 100, 63, 72
+p   i                j
+ 
+setelah ditukar
+90, 72, 65, 100, 63, 72
+
+ 
+
+i sekarang di 65 kurang dari 90, posisi tetap
+i sekarang di 100 lebih dari 90, maka i berhenti di 100
+j ada di 63
+90, 72, 65, 100, 63, 72
+p            i   j
+
+
+tukar(data[j] dengan pivot)
+63, 72, 65, 100, 90,72
+i = 72 karne lebih besar dari pivot yakni 63
+
+
+
+
+
+
